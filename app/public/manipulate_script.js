@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const regex = new RegExp(regexPattern,'g');
 
             // Remove matches from the XML content
-            let processedXml = xmlContent.replace(regex,'');
+            let processedXml = xmlContent.replace(regex,replaceValue);
 
             const remove_pattern = '(^[\r\n]*|[\r\n]+)[\s\t]*[\r\n]+';  
             const removal_regex = new RegExp(remove_pattern,'g');         
