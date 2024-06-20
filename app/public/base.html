@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bun XML Processor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        textarea, input, button {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+        }
+        button {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <textarea id="xmlInput" rows="10" placeholder="Enter your XML here"></textarea>
+        <input type="text" id="regexInput" placeholder="Enter your regular expression">
+        <input type="text" id="replaceInput" placeholder="Enter your replace value">
+        <button id="processButton">Submit</button>
+        <textarea id="xmlOutput" rows="10" placeholder="Processed XML will appear here"></textarea>
+    </div>
+
+    <script src="manipulate_script.js"></script>
+</body>
+</html>
