@@ -1,0 +1,8 @@
+services:
+  xml-manipulator:
+    build: .
+    ports:
+      - "5179:5179"
+    environment:
+      - NODE_ENV=production
+      - PORT=5179
