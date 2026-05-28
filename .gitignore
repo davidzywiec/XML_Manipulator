@@ -5,3 +5,16 @@ uploads/*
 outputs/
 *.log
 .env
+.env.*
+*.local
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local working data exports should not be committed from the project root.
+/*.csv
+/*.xml
+/*.txt
+/*.xlsx
+/*.xls

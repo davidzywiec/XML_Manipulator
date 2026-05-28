@@ -5,3 +5,15 @@ dist
 uploads/*
 outputs
 *.log
+.env
+.env.*
+*.local
+*.pem
+*.key
+*.p12
+*.pfx
+/*.csv
+/*.xml
+/*.txt
+/*.xlsx
+/*.xls
